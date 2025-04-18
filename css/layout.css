@@ -1,0 +1,38 @@
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+
+
+.inner {
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+.default {
+    padding: 120px 0;
+}
+
+.default .title {
+    max-width: 1410px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.default .title h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.default .title p {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
